@@ -1,0 +1,22 @@
+{
+  "name": "comida",
+  "version": "1.0.0",
+  "description": "comida sana",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "watch:sass": "node-sass ./sass/sass.scss ./css/style.css -w"
+  },
+  "author": "Michel",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "concat": "^1.0.3",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "parcel": "^1.12.4"
+  }
+}
